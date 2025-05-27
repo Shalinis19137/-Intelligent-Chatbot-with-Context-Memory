@@ -11,6 +11,8 @@ Generate contextually relevant responses
 
 The system is built on a simulated large-scale conversational dataset, enriched with user/session metadata, emotion and topic labels, and robust preprocessing. It integrates classical NLP pipelines with a variety of machine learning models to enhance intent recognition and response quality.
 
+
+
 🚀 Features
 🗣️ Large-Scale Conversational Dataset Simulation
 Generates 50,000 conversational samples.
@@ -34,6 +36,8 @@ Applying lemmatization
 
 Normalizing text for improved feature quality
 
+
+
 📊 Exploratory Data Analysis & Visualization
 Visual insights into:
 
@@ -44,6 +48,8 @@ Topic-intent relationships
 Text length correlations
 
 Detection of question-based inputs
+
+
 
 🧠 Multi-Model Intent Classification
 Implements and compares multiple ML classifiers:
@@ -58,6 +64,8 @@ Support Vector Machine (SVM)
 
 All models are embedded in TF-IDF + ML pipelines for optimal performance.
 
+
+
 📈 Performance Evaluation
 Generates detailed classification reports
 
@@ -71,6 +79,8 @@ F1-score
 
 On unseen test data
 
+
+
 🛠️ Technologies & Libraries
 Category	Libraries Used
 Programming Language	Python
@@ -78,6 +88,8 @@ Data Handling	Pandas, NumPy
 NLP	NLTK (stopwords, lemmatizer)
 ML Models & Pipeline	Scikit-learn
 Visualization	Matplotlib, Seaborn
+
+
 
 🗂️ Project Structure
 📁 Data Loading & Simulation
@@ -99,12 +111,16 @@ Prompt/response lengths
 
 Correlation heatmaps
 
+
+
 🧪 Model Training & Evaluation
 TF-IDF vectorization
 
 Model training with train/test split
 
 Evaluation of classification accuracy
+
+
 
 ▶️ How to Use
 📥 Clone the Repository
@@ -113,6 +129,9 @@ Copy
 Edit
 git clone https://github.com/yourusername/intelligent-chatbot-context-memory.git
 cd intelligent-chatbot-context-memory
+
+
+
 📦 Install Dependencies
 bash
 Copy
@@ -137,6 +156,8 @@ Integrate transformer models (e.g., BERT, GPT)
 Build intelligent response generation modules
 
 Embed chatbot into web/mobile interfaces
+
+
 
 🔮 Future Work
 🧠 Implement context memory to handle multi-turn conversations
