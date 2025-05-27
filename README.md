@@ -13,6 +13,10 @@ The system is built on a simulated large-scale conversational dataset, enriched 
 
 
 
+
+
+
+
 🚀 Features
 🗣️ Large-Scale Conversational Dataset Simulation
 Generates 50,000 conversational samples.
@@ -38,6 +42,8 @@ Normalizing text for improved feature quality
 
 
 
+
+
 📊 Exploratory Data Analysis & Visualization
 Visual insights into:
 
@@ -48,6 +54,9 @@ Topic-intent relationships
 Text length correlations
 
 Detection of question-based inputs
+
+
+
 
 
 
@@ -66,6 +75,9 @@ All models are embedded in TF-IDF + ML pipelines for optimal performance.
 
 
 
+
+
+
 📈 Performance Evaluation
 Generates detailed classification reports
 
@@ -81,6 +93,8 @@ On unseen test data
 
 
 
+
+
 🛠️ Technologies & Libraries
 Category	Libraries Used
 Programming Language	Python
@@ -88,6 +102,9 @@ Data Handling	Pandas, NumPy
 NLP	NLTK (stopwords, lemmatizer)
 ML Models & Pipeline	Scikit-learn
 Visualization	Matplotlib, Seaborn
+
+
+
 
 
 
@@ -113,12 +130,16 @@ Correlation heatmaps
 
 
 
+
+
 🧪 Model Training & Evaluation
 TF-IDF vectorization
 
 Model training with train/test split
 
 Evaluation of classification accuracy
+
+
 
 
 
@@ -129,6 +150,8 @@ Copy
 Edit
 git clone https://github.com/yourusername/intelligent-chatbot-context-memory.git
 cd intelligent-chatbot-context-memory
+
+
 
 
 
@@ -147,6 +170,8 @@ Preprocess input text
 Visualize insights
 
 Train and evaluate ML models
+
+
 
 🔧 Customize & Extend
 Add new intents, emotions, or topics
@@ -172,5 +197,7 @@ Embed chatbot into web/mobile interfaces
 
 👩‍💻 Author
 Created by:  Shalini Kumari
-📫 Contact: shalinis19137@gmail.com
+
+ 
+ Contact: shalinis19137@gmail.com
 
